@@ -10,7 +10,6 @@ import React, { useEffect } from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import { BrowserRouter } from "react-router-dom";
 import Hamnavbar from "./Hamnavbar";
-import { Fade } from "react-reveal";
 
 const Navigation = () => {
   return (
