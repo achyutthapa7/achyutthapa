@@ -27,7 +27,7 @@ const Navigation = () => {
             <Hamnavbar />
             <Link to="#Home" smooth className="link">
               <Avatar
-                src="images/profile.jpg"
+                src="../images/profile.jpg"
                 sx={{
                   display: { md: "flex", xs: "none" },
                   cursor: "pointer",
