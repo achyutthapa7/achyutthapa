@@ -30,7 +30,7 @@ const About = () => {
             <Fade left>
               <div
                 style={{
-                  background: `url('images/about.jpg')`,
+                  background: `url('./images/about.jpg')`,
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   minHeight: "350px",

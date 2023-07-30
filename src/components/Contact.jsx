@@ -10,7 +10,7 @@ const Contact = () => {
           <Grid item md="6" xs="12" sx={{ padding: "0 20px" }}>
             <Fade left>
               <div>
-                <img src="capture.png" alt="" className="image" />
+                <img src="./images/capture.png" alt="" className="image" />
 
                 <p
                   style={{
