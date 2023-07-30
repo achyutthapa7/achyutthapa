@@ -10,7 +10,7 @@ const Contact = () => {
           <Grid item md="6" xs="12" sx={{ padding: "0 20px" }}>
             <Fade left>
               <div>
-                <img src="./images/capture.png" alt="" className="image" />
+                <img src="../images/capture.png" alt="" className="image" />
 
                 <p
                   style={{
@@ -27,38 +27,37 @@ const Contact = () => {
               </div>
             </Fade>
           </Grid>
+
           <Grid item md="6" xs="12" sx={{ padding: "0 20px" }}>
             <Fade right>
-              <form action="">
-                <div
-                  className="input_div"
+              <div
+                className="input_div"
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "20px",
+                }}
+              >
+                <input type="text" placeholder="Name" />
+                <input type="text" placeholder="Email" />
+                <input type="text" placeholder="Subject" />
+                <textarea
+                  type="text"
+                  placeholder="Message"
                   style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    gap: "20px",
+                    maxWidth: "100%",
+                    minWidth: "100%",
+                    minHeight: "250px",
                   }}
-                >
-                  <input type="text" placeholder="Name" />
-                  <input type="text" placeholder="Email" />
-                  <input type="text" placeholder="Subject" />
-                  <textarea
-                    type="text"
-                    placeholder="Message"
-                    style={{
-                      maxWidth: "100%",
-                      minWidth: "100%",
-                      minHeight: "250px",
-                    }}
-                  />
-                </div>
-                <br />
+                />
+              </div>
+              <br />
 
-                <div className="button" style={{ textAlign: "center" }}>
-                  <Button variant="Contained" sx={{ background: "#32BD40" }}>
-                    Send Message
-                  </Button>
-                </div>
-              </form>
+              <div className="button" style={{ textAlign: "center" }}>
+                <Button variant="Contained" sx={{ background: "#32BD40" }}>
+                  Send Message
+                </Button>
+              </div>
             </Fade>
           </Grid>
         </Grid>
