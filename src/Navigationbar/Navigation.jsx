@@ -55,7 +55,7 @@ const Navigation = () => {
             </Box>
 
             <Button
-              variant="Contained"
+              variant="contained"
               sx={{
                 color: "white",
                 background: "#BC9E32",
