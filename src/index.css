@@ -97,3 +97,6 @@ body {
 .send_button:hover {
   background-color: #1976d2;
 }
+.about_div_img {
+  background: url("../images/about.jpg");
+}

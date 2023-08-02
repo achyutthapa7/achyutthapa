@@ -29,8 +29,8 @@ const About = () => {
           <Grid item md="5" xs="12">
             <Fade left>
               <div
+                className="about_div_img"
                 style={{
-                  background: `url('../images/about.jpg')`,
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   minHeight: "350px",
