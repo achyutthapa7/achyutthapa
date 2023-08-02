@@ -42,7 +42,6 @@ const Contact = () => {
             <Fade left>
               <div>
                 <img src="../images/Capture.png" alt="" className="image" />
-
                 <p
                   style={{
                     letterSpacing: "2px",
