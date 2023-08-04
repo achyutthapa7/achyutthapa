@@ -31,7 +31,7 @@ const About = () => {
               <div
                 className="about_div_img"
                 style={{
-                  backgroundSize: "cover",
+                backgroundSize: "cover",
                   backgroundPosition: "center",
                   minHeight: "350px",
                 }}
